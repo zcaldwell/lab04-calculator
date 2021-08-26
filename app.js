@@ -50,6 +50,13 @@ const divNumber1 = document.getElementById('divnumber-1');
 const divNumber2 = document.getElementById('divnumber-2');
 const divButton = document.getElementById('div-button');
 const divAnswer = document.getElementById('div-answer');
+
+divButton.addEventListener('click', () => {
+    const num1 = Number(divNumber1.value);
+    const num2 = Number(divNumber2.value);
+    const sum = div(num1, num2);
+    divAnswer.textContent = sum;
+});
     
     
 // set event listeners 
