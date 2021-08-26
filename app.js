@@ -43,6 +43,14 @@ timesButton.addEventListener('click', () => {
     const sum = times(num1, num2);
     timesAnswer.textContent = sum;
 });
+
+import { div } from './calculations.js';
+
+const divNumber1 = document.getElementById('divnumber-1');
+const divNumber2 = document.getElementById('divnumber-2');
+const divButton = document.getElementById('div-button');
+const divAnswer = document.getElementById('div-answer');
+    
     
 // set event listeners 
     // get user input(s)

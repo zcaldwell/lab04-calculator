@@ -13,3 +13,8 @@ export function times(x, y) {
     let sum = x * y;
     return sum;
 }
+
+export function div(x, y) {
+    let sum = x / y;
+    return sum;
+}
