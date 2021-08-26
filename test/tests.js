@@ -8,7 +8,7 @@ const test = QUnit.test;
 test('time to test a function', (expect) => {
     //Arrange
     // Set up your arguments and expectations
-    const expected = false;
+    const expected = true;
     
     //Act 
     // Call the function you're testing and set the result to a const
